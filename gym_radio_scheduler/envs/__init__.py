@@ -1,1 +1,1 @@
-from gym-radio-scheduler.envs.radio-scheduler-env import RadioSchedulerEnv
+from gym_radio_scheduler.envs.radio_scheduler_env import RadioSchedulerEnv
