@@ -8,10 +8,15 @@ class RadioSchedulerEnv(gym.Env):
   metadata = {'render.modes': ['random']}
   
   def __init__(self):
+
+    # nrof_ues: Integer value
+    # scheduler_type: ['Random', 'MaxRate', 'RoundRobin', 'PropFair']
     self.sched = RadioMultilinkScheduler(nrof_ues=30, scheduler_type='Random')
 
   def step(self, action):
-    reward = self.sched.transmit(action)
+    result = self.sched.transmit()
+
+    return result
 
   def reset(self):
     pass
