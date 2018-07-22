@@ -5,7 +5,7 @@ This repository contains a PIP package which is an OpenAI environment for simula
 # Installation  
 Install [OpenAI gym](https://github.com/openai/gym#installation).    
 Install [py-itpp](https://github.com/vidits-kth/py-itpp).  
-Clone [simulator](https://github.com/vidits-kth/py-radio-multilink-scheduler).  
+Clone the [simulator](https://github.com/vidits-kth/py-radio-multilink-scheduler).  
 Add the simulator to PYTHONPATH.  
   
 # Usage  
