@@ -6,15 +6,18 @@ This repository contains a PIP package which is an OpenAI environment for simula
 Install [OpenAI gym](https://github.com/openai/gym#installation).    
 Install [py-itpp](https://github.com/vidits-kth/py-itpp).  
 
-Clone this repo   
-Add the cloned repo to PYTHONPATH.  
+Clone and install this package:
+```python
+pip install -e .
+```
   
 # Usage  
+```python
 import gym  
 import gym_radio_scheduler  
 env = gym.make('RadioScheduler-v0')  
 
 result = env.step()  
 print(result) 
-
+```
 The result is a tuple containing (scheduled_ue_index, channel_quality_index, realized_throughput)  
