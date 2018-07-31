@@ -1,6 +1,6 @@
 import py_itpp as pyp
 import numpy as np
-from src.CONSTANTS import CUSTOM_SYSTEM_CONFIG as CONFIG
+from .CONSTANTS import CUSTOM_SYSTEM_CONFIG as CONFIG
 
 def determine_snr_at_bler_target(awgn_data, bler_target):
     awgn_snr_range_dB = awgn_data['snr_range_dB']

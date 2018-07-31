@@ -1,5 +1,5 @@
 import py_itpp as pyp
-from src.CONSTANTS import CUSTOM_SYSTEM_CONFIG as CONFIG
+from .CONSTANTS import CUSTOM_SYSTEM_CONFIG as CONFIG
 
 ''' Create an instance of the channel
 '''

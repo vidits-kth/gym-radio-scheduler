@@ -45,7 +45,9 @@ class RadioSchedulerEnv(gym.Env):
         return result
   
     def reset(self):
-        pass
+        result = self.sched.transmit(-1)
+
+        return result[1]
   
     def render(self, mode='random', close=False):
         pass

@@ -1,6 +1,6 @@
 import os
 import py_itpp as pyp
-from src import *
+from .src import *
 
 class RadioMultilinkScheduler():
     nrof_bits_in_packet = 1000000 # bits
